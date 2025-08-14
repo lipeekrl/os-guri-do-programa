@@ -1,0 +1,106 @@
+@import url(reset.css);
+
+body,
+html {
+  height: 100vh;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: black;
+}
+
+main {
+  display: flex;
+  height: 100vh;
+}
+
+.section-logo {
+  width: 50%;
+  color: white;
+  background-image: url(img/fundo.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-info {
+  width: 50%;
+  padding: 2em;
+  background: #fff;
+}
+
+
+.description h2 {
+  font-weight: 900;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.description p {
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+
+.programadores {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  justify-content: center;
+}
+
+.programadores > img {
+  border-radius: 100%;
+  width: 120px;
+  
+
+}
+
+.vidro {
+  position: absolute;
+  width: 55%;
+  height: 50%;
+}
+
+.tinta {
+  width: 50%;
+  height: 30%;
+  position: absolute;
+}
+
+.text-section {
+  font-family: fantasy;
+  position: absolute;
+  align-items: center;
+}
+
+.text-section > h1 {
+  color: green;
+  font-size: 230%;
+}
+
+.text-section > p {
+  color:beige
+}
+
+header {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  padding: 1rem 0;
+}
+
+header nav a {
+  color: white;
+ 
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-size: 1rem;
+  justify-content: space-between;
+  padding: 5em;
+  
+ 
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
